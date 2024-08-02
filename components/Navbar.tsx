@@ -5,7 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="flex mx-auto w-full justify-between bg-[#cl] px-[5rem] py-2">
+      <nav className="flex mx-auto w-full justify-between bg-[#10335D] px-[5rem] py-2 sticky top-0 z-80">
         {/* gambar */}
         <Image
           src="/indigo-logo-transparent.png"
@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
