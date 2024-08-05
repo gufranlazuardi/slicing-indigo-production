@@ -35,36 +35,40 @@ const MultiChannelNetwork = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
-                <ThumbsUp color="white" size={20} />
+              <div className="flex flex-col">
+                <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
+                  <ThumbsUp color="white" size={20} />
+                </div>
+                <p className="text-[#5FC0C8] text-[20px] font-light">
+                  Content Development
+                </p>
               </div>
-              <p className="text-[#5FC0C8] text-[20px] font-light">
-                Content Development
-              </p>
+              <div className="flex items-center gap-4">
+                <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
+                  <ThumbsUp color="white" size={20} />
+                </div>
+                <p className="text-[#5FC0C8] text-[20px] font-light">
+                  Content Development
+                </p>
+              </div>
             </div>
-            <div className="flex items-center gap-4">
-              <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
-                <ThumbsUp color="white" size={20} />
+            <div className="flex flex-col max-w-40">
+              <div className="flex items-center gap-4">
+                <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
+                  <ThumbsUp color="white" size={20} />
+                </div>
+                <p className="text-[#5FC0C8] text-[20px] font-light">
+                  Content Development
+                </p>
               </div>
-              <p className="text-[#5FC0C8] text-[20px] font-light">
-                Content Development
-              </p>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
-                <ThumbsUp color="white" size={20} />
+              <div className="flex items-center gap-4">
+                <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
+                  <ThumbsUp color="white" size={20} />
+                </div>
+                <p className="text-[#5FC0C8] text-[20px] font-light">
+                  Content Development
+                </p>
               </div>
-              <p className="text-[#5FC0C8] text-[20px] font-light">
-                Content Development
-              </p>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="flex bg-[#235E98] w-8 h-8 rounded-full justify-center items-center">
-                <ThumbsUp color="white" size={20} />
-              </div>
-              <p className="text-[#5FC0C8] text-[20px] font-light">
-                Content Development
-              </p>
             </div>
           </div>
         </div>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-dotted-border {
+  border-left-width: 4px; /* Adjust the thickness */
+  border-left-style: dotted;
+  border-left-color: cyan;
+  background-image: (cyan 50%);
+  background-position: left;
+  background-size: 0px; /* Adjust the size of the dots */
+  /* background-repeat: repeat-y; */
+}
