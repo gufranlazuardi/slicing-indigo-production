@@ -2,7 +2,7 @@ import React from "react";
 
 const InfotainmentDivision = () => {
   return (
-    <div className="flex justify-between bg-[#10335D] px-[3rem]">
+    <div className="flex justify-between bg-[#10335D] px-[3rem] py-[2rem]">
       <div className="flex flex-col gap-[2rem]">
         {/* infotainment division */}
         <div className="flex flex-col text-white">
