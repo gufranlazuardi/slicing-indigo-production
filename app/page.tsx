@@ -1,5 +1,6 @@
 import Achievements from "@/components/Achievements";
 import AdvertisingAndDesignHouse from "@/components/Advertising&DesignHouse";
+import CreativeDesignAndMultimedia from "@/components/CreativeDesignAndMultimedia";
 import CreativeIndigoProductionIs from "@/components/CreativeIndigoProductionIs";
 import DigitalDivision from "@/components/DigitalDivision";
 import FirstSection from "@/components/FirstSection";
@@ -26,6 +27,7 @@ const Home = () => {
     <div className="w-full h-screen flex flex-col">
       <VideoSection />
       <CreativeIndigoProductionIs />
+      <CreativeDesignAndMultimedia />
       <Programs />
       <Achievements />
       <InfotainmentPrograms1 />

@@ -7,7 +7,7 @@ const DigitalDivision = () => {
       <h2 className="text-gray-500 text-[50px] font-semibold">
         digital division
       </h2>
-      <div className="flex mt-[4rem] gap-[8rem]">
+      <div className="flex mt-[4rem] gap-[8rem] flex-col lg:flex-row xl:flex-row items-center">
         <div className="flex flex-col gap-[1rem]">
           <Image
             src="/icon-www.png"

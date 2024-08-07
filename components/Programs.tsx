@@ -11,7 +11,7 @@ const Programs = () => {
         height={100}
         className="w-full"
       />
-      <div className="grid grid-cols-4 mx-auto gap-4 px-2">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 mx-auto gap-4 px-2">
         <div className="relative">
           <Image
             src="/program2.jpg"

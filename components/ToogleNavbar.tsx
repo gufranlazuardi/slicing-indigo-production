@@ -19,7 +19,7 @@ const ToogleNavbar = () => {
         <Menu color="white" size={30} />
       </SheetTrigger>
 
-      <SheetContent className="bg-[#10335D]">
+      <SheetContent side="top" className="bg-[#10335D]">
         <ul className="text-white flex flex-col justify-center items-center gap-[1rem]">
           <li className="flex items-center justify-center gap-2 cursor-pointer">
             <Home size={18} />

@@ -11,12 +11,12 @@ const ProductionService = () => {
         <h3 className="text-xl font-light">FOR PROMOTERS</h3>
       </div>
 
-      <div className="flex flex-col mt-[3rem] text-gray-400">
-        <p className="text-[20px] max-w-[45rem]">
-          Promote and provide multimedia production and exclusive
-          documentation of artists and promoters.
+      <div className="flex flex-col mt-[1rem] md:mt-[2rem] lg:mt-[3rem] xl:mt-[3rem] text-gray-400">
+        <p className="text-[17px] md:text-[18px] lg:text-[20px] xl:text-[20px] max-w-[45rem]">
+          Promote and provide a production and exclusive documentation
+          of artists and promoters.
         </p>
-        <p className="text-[16px] mt-[2rem] max-w-[45rem]">
+        <p className="text-[16px] mt-[2rem] max-w-[40rem] md:max-w-[42rem] lg:max-w-[45rem] xl:max-w-[45rem]">
           With professional Show Directors, Cameramen, and supporting
           crews. Our portfolio are Linkin Park, Simple Plan, G Dragon,
           Big Bang, Adam Lambert, Demi Lovato, David Foster, Lenka and

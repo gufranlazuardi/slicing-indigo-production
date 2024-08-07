@@ -8,7 +8,7 @@ const MultiChannelNetwork = () => {
       <h1 className="pl-[2rem] text-gray-500 text-[40px] font-semibold">
         Multi Channel Network
       </h1>
-      <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row">
+      <div className="flex flex-col gap-[2rem] md:gap-[2rem] lg:gap-[18rem] xl:gap-[18rem] items-center sm:flex-col md:flex-row lg:flex-row xl:flex-row">
         <div className="flex flex-col gap-[1rem] mt-[3rem]">
           <div className="pl-[4rem] max-w-[450px] text-[20px] text-gray-500">
             <span className="font-bold">iAM </span>is
@@ -81,54 +81,66 @@ const MultiChannelNetwork = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 ml-[18rem] mt-[4rem] gap-10">
-          <div className="flex flex-col items-center relative">
-            <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
-              <Image
-                src="/Youtube_logo.png"
-                alt="Youtube_logo"
-                width={40}
-                height={100}
-                className="absolute bottom-12"
-              />
+        <div className="flex flex-col gap-10">
+          <div className="flex gap-[3rem]">
+            <div className="flex flex-col items-center relative">
+              <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
+                <Image
+                  src="/Youtube_logo.png"
+                  alt="Youtube_logo"
+                  width={40}
+                  height={100}
+                  className="absolute bottom-12"
+                />
+              </div>
+              <p className="text-gray-500 font-semibold">
+                asldkfkafas{" "}
+              </p>
             </div>
-            <p className="text-gray-500 font-semibold">Uya Kuya TV</p>
+            <div className="flex flex-col items-center relative">
+              <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
+                <Image
+                  src="/Youtube_logo.png"
+                  alt="Youtube_logo"
+                  width={40}
+                  height={100}
+                  className="absolute bottom-12"
+                />
+              </div>
+              <p className="text-gray-500 font-semibold">
+                Mata Langit
+              </p>{" "}
+            </div>
           </div>
-          <div className="flex flex-col items-center relative">
-            <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
-              <Image
-                src="/Youtube_logo.png"
-                alt="Youtube_logo"
-                width={40}
-                height={100}
-                className="absolute bottom-12"
-              />
+          <div className="flex gap-[3rem]">
+            <div className="flex flex-col items-center relative">
+              <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
+                <Image
+                  src="/Youtube_logo.png"
+                  alt="Youtube_logo"
+                  width={40}
+                  height={100}
+                  className="absolute bottom-12"
+                />
+              </div>
+              <p className="text-gray-500 font-semibold">
+                asldkfkafas{" "}
+              </p>
             </div>
-            <p className="text-gray-500 font-semibold">Mata Langit</p>{" "}
-          </div>
-          <div className="flex flex-col items-center relative">
-            <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
-              <Image
-                src="/Youtube_logo.png"
-                alt="Youtube_logo"
-                width={40}
-                height={100}
-                className="absolute bottom-12"
-              />
+            <div className="flex flex-col items-center relative">
+              <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
+                <Image
+                  src="/Youtube_logo.png"
+                  alt="Youtube_logo"
+                  width={40}
+                  height={100}
+                  className="absolute bottom-12"
+                />
+              </div>
+              <p className="text-gray-500 font-semibold">
+                Mata Langit
+              </p>{" "}
             </div>
-            <p className="text-gray-500 font-semibold">Chris CSB</p>{" "}
-          </div>
-          <div className="flex flex-col items-center relative">
-            <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
-              <Image
-                src="/Youtube_logo.png"
-                alt="Youtube_logo"
-                width={40}
-                height={100}
-                className="absolute bottom-12"
-              />
-            </div>
-            <p className="text-gray-500 font-semibold">Ratna Listy</p>{" "}
           </div>
         </div>
       </div>
