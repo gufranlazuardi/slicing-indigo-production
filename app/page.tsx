@@ -3,13 +3,12 @@ import AdvertisingAndDesignHouse from "@/components/Advertising&DesignHouse";
 import CreativeDesignAndMultimedia from "@/components/CreativeDesignAndMultimedia";
 import CreativeIndigoProductionIs from "@/components/CreativeIndigoProductionIs";
 import DigitalDivision from "@/components/DigitalDivision";
-import FirstSection from "@/components/FirstSection";
+import Footer from "@/components/Footer";
 import InfotainmentDivision from "@/components/InfotainmentDivision";
 import InfotainmentPrograms1 from "@/components/InfotainmentPrograms1";
 import JalanSesama1 from "@/components/JalanSesama1";
 import JalanSesama2 from "@/components/JalanSesama2";
 import MultiChannelNetwork from "@/components/MultiChannelNetwork";
-import Navbar from "@/components/Navbar";
 import NonInfotainmentDivision from "@/components/NonInfotainmentDivision";
 import NonInfotainmentPrograms from "@/components/NonInfotainmentPrograms";
 import OurSubsidiaries from "@/components/OurSubsidiaries";
@@ -26,10 +25,14 @@ const Home = () => {
   return (
     <div className="w-full h-screen flex flex-col">
       <VideoSection />
-      <CreativeIndigoProductionIs />
+      <div id="about">
+        <CreativeIndigoProductionIs />
+      </div>
       <CreativeDesignAndMultimedia />
       <Programs />
-      <Achievements />
+      <div id="achievements">
+        <Achievements />
+      </div>
       <InfotainmentPrograms1 />
       <NonInfotainmentPrograms />
       <Programlist1 />
@@ -38,13 +41,18 @@ const Home = () => {
       <WeHave />
       <InfotainmentDivision />
       <NonInfotainmentDivision />
-      <JalanSesama1 />
+      <div id="jalan-sesama">
+        <JalanSesama1 />
+      </div>
       <JalanSesama2 />
       <OurSubsidiaries />
       <DigitalDivision />
       <MultiChannelNetwork />
       <AdvertisingAndDesignHouse />
       <ProductionService />
+      <div id="footer">
+        <Footer />
+      </div>
     </div>
   );
 };
