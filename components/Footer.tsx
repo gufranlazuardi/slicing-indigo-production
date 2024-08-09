@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="flex justify-center">
           <Image
-            src="/indigo-logo-transparent.png"
+            src="/images/indigo-logo-transparent.png"
             width={230}
             height={60}
             alt="indigo-logo"
