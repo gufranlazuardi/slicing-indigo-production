@@ -36,14 +36,14 @@ const DigitalDivision = () => {
         <div className="flex mt-[4rem] gap-[8rem] flex-col lg:flex-row xl:flex-row ">
           <div className="flex flex-col gap-[1rem]">
             <Image
-              src="/icon-www.png"
+              src="/images/icon-www.png"
               alt="/icon-www"
               height={100}
               width={100}
               className="w-[4rem]"
             />
             <Image
-              src="/Logo-cumicumicom.png"
+              src="/images/Logo-cumicumicom.png"
               alt="/icon-www"
               height={100}
               width={100}
@@ -53,7 +53,7 @@ const DigitalDivision = () => {
               Produce and manage celebrity news through web portal
             </p>
             <Image
-              src="/About-Cumi-Web-crop.png"
+              src="/images/About-Cumi-Web-crop.png"
               alt="About-Cumi-Web-Crop"
               width={300}
               height={100}
@@ -62,13 +62,13 @@ const DigitalDivision = () => {
           </div>
           <div className="flex flex-col gap-[1rem]">
             <Image
-              src="/Logo-Youtube.png"
+              src="/images/Logo-Youtube.png"
               alt="Logo-Youtube"
               height={100}
               width={100}
             />
             <Image
-              src="/Logo-cumicumi-YT.png"
+              src="/images/Logo-cumicumi-YT.png"
               alt="/Logo-cumicumi-YT"
               height={100}
               width={100}
@@ -79,7 +79,7 @@ const DigitalDivision = () => {
               Channels
             </p>
             <Image
-              src="/About-Cumi-YT-crop.png"
+              src="/images/About-Cumi-YT-crop.png"
               alt="About-Cumi-YT"
               height={100}
               width={300}
@@ -93,7 +93,7 @@ const DigitalDivision = () => {
             Our{" "}
             <span className="px-2">
               <Image
-                src="/Logo-Youtube.png"
+                src="/images/Logo-Youtube.png"
                 alt="Logo-Youtube"
                 width={120}
                 height={100}
@@ -102,10 +102,11 @@ const DigitalDivision = () => {
             digital channels
           </div>
           <div className="grid grid-cols-2 gap-5">
-            {DigitalDivisionData.map((index) => (
+            {DigitalDivisionData.map((item, index) => (
               <Image
-                src={index.src}
-                alt={index.alt}
+                key={index}
+                src={item.src}
+                alt={item.alt}
                 width={100}
                 height={100}
                 className="w-[12rem]"

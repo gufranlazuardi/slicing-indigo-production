@@ -54,7 +54,7 @@ const Navbar = () => {
         {/* gambar */}
         <button onClick={handleLogoClick}>
           <Image
-            src="/indigo-logo-transparent.png"
+            src="/images/indigo-logo-transparent.png"
             width={150}
             height={200}
             alt="indigo-logo-transparent"

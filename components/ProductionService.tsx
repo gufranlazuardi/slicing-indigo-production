@@ -24,7 +24,7 @@ const ProductionService = () => {
         </p>
       </div>
       <Image
-        src="/konser.png"
+        src="/images/konser.png"
         alt="konser"
         width={100}
         height={100}

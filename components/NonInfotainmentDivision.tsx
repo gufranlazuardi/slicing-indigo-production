@@ -41,7 +41,7 @@ const NonInfotainmentDivision = () => {
         </div>
       </div>
       <Image
-        src="/non-infotainment-image.png"
+        src="/images/non-infotainment-image.png"
         alt="non-infotainment-image"
         width={900}
         height={100}

@@ -9,42 +9,42 @@ import { Search } from "lucide-react";
 
 const programsData = [
   {
-    src: "/program2.jpg",
+    src: "/images/program2.jpg",
     alt: "Indigo Studio",
     title: "Indigo Studio",
   },
   {
-    src: "/program6.jpg",
+    src: "/images/program6.jpg",
     alt: "Selebrita Pagi Studio",
     title: "Selebrita Pagi Studio",
   },
   {
-    src: "/program8.jpg",
+    src: "/images/program8.jpg",
     alt: "Cekidot Show Studio",
     title: "Cekidot Show Studio",
   },
   {
-    src: "/program7.jpg",
+    src: "/images/program7.jpg",
     alt: "Hot Kiss Studio",
     title: "Hot Kiss Studio",
   },
   {
-    src: "/program4.jpg",
+    src: "/images/program4.jpg",
     alt: "Silet Studio",
     title: "Silet Studio",
   },
   {
-    src: "/program5.jpg",
+    src: "/images/program5.jpg",
     alt: "Intens Studio",
     title: "Intens Studio",
   },
   {
-    src: "/program3.jpg",
+    src: "/images/program3.jpg",
     alt: "Makeup Studio",
     title: "Makeup Studio",
   },
   {
-    src: "/program1.jpg",
+    src: "/images/program1.jpg",
     alt: "Sky Studio",
     title: "Sky Studio",
   },

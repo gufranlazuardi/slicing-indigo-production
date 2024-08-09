@@ -84,7 +84,7 @@ const MultiChannelNetwork = () => {
             <div className="flex flex-col gap-2 items-center relative">
               <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
                 <Image
-                  src="/Youtube_logo.png"
+                  src="/images/Youtube_logo.png"
                   alt="Youtube_logo"
                   width={40}
                   height={100}
@@ -98,7 +98,7 @@ const MultiChannelNetwork = () => {
             <div className="flex flex-col gap-2 items-center relative">
               <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
                 <Image
-                  src="/Youtube_logo.png"
+                  src="/images/Youtube_logo.png"
                   alt="Youtube_logo"
                   width={40}
                   height={100}
@@ -114,7 +114,7 @@ const MultiChannelNetwork = () => {
             <div className="flex flex-col gap-2 items-center relative">
               <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
                 <Image
-                  src="/Youtube_logo.png"
+                  src="/images/Youtube_logo.png"
                   alt="Youtube_logo"
                   width={40}
                   height={100}
@@ -126,7 +126,7 @@ const MultiChannelNetwork = () => {
             <div className="flex flex-col gap-2 items-center relative">
               <div className="flex w-[10rem] h-[10rem] bg-blue-600 rounded-full items-end justify-center">
                 <Image
-                  src="/Youtube_logo.png"
+                  src="/images/Youtube_logo.png"
                   alt="Youtube_logo"
                   width={40}
                   height={100}
