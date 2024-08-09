@@ -1,4 +1,7 @@
+"use client";
+
 import Achievements from "@/components/Achievements";
+import AdvancedIntoDigital from "@/components/AdvancedIntoDigital";
 import AdvertisingAndDesignHouse from "@/components/Advertising&DesignHouse";
 import CreativeDesignAndMultimedia from "@/components/CreativeDesignAndMultimedia";
 import CreativeIndigoProductionIs from "@/components/CreativeIndigoProductionIs";
@@ -11,45 +14,87 @@ import JalanSesama2 from "@/components/JalanSesama2";
 import MultiChannelNetwork from "@/components/MultiChannelNetwork";
 import NonInfotainmentDivision from "@/components/NonInfotainmentDivision";
 import NonInfotainmentPrograms from "@/components/NonInfotainmentPrograms";
+import OurFacilities from "@/components/OurFacilities";
+import OurPrograms from "@/components/OurPrograms";
 import OurSubsidiaries from "@/components/OurSubsidiaries";
 import ProductionService from "@/components/ProductionService";
 import Programlist1 from "@/components/Programlist1";
 import Programlist2 from "@/components/Programlist2";
 import Programlist3 from "@/components/Programlist3";
 import Programs from "@/components/Programs";
+import Silet from "@/components/Silet";
 import VideoSection from "@/components/VideoSection";
 import WeHave from "@/components/WeHave";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="w-full h-screen flex flex-col">
       <VideoSection />
-      <div id="about">
+      <div id="about" data-aos="fade-up">
         <CreativeIndigoProductionIs />
       </div>
-      <CreativeDesignAndMultimedia />
+      <div data-aos="fade-up">
+        <WeHave />
+      </div>
+      <div id="team">
+        <InfotainmentDivision />
+      </div>
+      <div data-aos="fade-up">
+        <NonInfotainmentDivision />
+      </div>
+      <div data-aos="fade-up">
+        <CreativeDesignAndMultimedia />
+      </div>
+      <div id="facilities">
+        <OurFacilities />
+      </div>
+      <div data-aos="fade-up">
+        <AdvancedIntoDigital />
+      </div>
       <Programs />
       <div id="achievements">
         <Achievements />
       </div>
+      <div id="our-programs">
+        <OurPrograms />
+      </div>
       <InfotainmentPrograms1 />
+      <Silet />
       <NonInfotainmentPrograms />
       <Programlist1 />
       <Programlist2 />
       <Programlist3 />
-      <WeHave />
-      <InfotainmentDivision />
-      <NonInfotainmentDivision />
       <div id="jalan-sesama">
         <JalanSesama1 />
       </div>
       <JalanSesama2 />
-      <OurSubsidiaries />
-      <DigitalDivision />
-      <MultiChannelNetwork />
-      <AdvertisingAndDesignHouse />
-      <ProductionService />
+      <div id="subsidiaries">
+        <OurSubsidiaries />
+      </div>
+      <div data-aos="fade-up">
+        <DigitalDivision />
+      </div>
+      <div data-aos="fade-up">
+        <MultiChannelNetwork />
+      </div>
+      <div data-aos="fade-up">
+        <AdvertisingAndDesignHouse />
+      </div>
+      <div data-aos="fade-up">
+        <ProductionService />
+      </div>
       <div id="footer">
         <Footer />
       </div>

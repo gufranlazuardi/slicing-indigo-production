@@ -3,7 +3,7 @@ import React from "react";
 
 const ProductionService = () => {
   return (
-    <div className="flex flex-col bg-black pt-[2rem] pl-[2.5rem] border-t-white border">
+    <div className="flex flex-col bg-black pt-[2rem] pl-[2.5rem]">
       <div className="flex flex-col text-white">
         <h2 className="text-[36px] font-semibold">
           production service

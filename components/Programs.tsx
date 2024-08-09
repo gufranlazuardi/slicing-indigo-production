@@ -5,6 +5,7 @@ import {
   DialogContent,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { Search } from "lucide-react";
 
 const programsData = [
   {
@@ -51,27 +52,23 @@ const programsData = [
 
 const Programs = () => {
   return (
-    <div className="flex flex-col gap-[6rem] bg-[#10335D]">
-      <Image
-        src="/program-top-section.png"
-        alt="program-top-section"
-        width={100}
-        height={300}
-        className="w-full"
-      />
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 mx-auto gap-4 px-2">
+    <div className="flex flex-col gap-[6rem] bg-[#10335D] px-[0.5rem] py-[6rem]">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 mx-auto gap-4 px-2 ">
         {programsData.map((program, index) => (
           <Dialog key={index}>
             <DialogTrigger>
-              <div className="relative">
+              <div className="relative group hover:opacity-40 transition-all">
                 <Image
                   src={program.src}
                   alt={program.alt}
                   width={350}
                   height={100}
                 />
-                <div className="flex absolute w-full bottom-0 h-[3.5rem] bg-gray-600 bg-opacity-40 text-white pl-[1rem] items-center font-light text-sm">
+                <div className="flex absolute w-full bottom-0 h-[3.5rem] bg-opacity-50 bg-gray-500 text-white pl-[1rem] items-center font-light text-sm">
                   {program.title}
+                </div>
+                <div className="hover:absolute opacity-0 hidden group-hover:opacity-100 transition-all">
+                  <Search />
                 </div>
               </div>
             </DialogTrigger>

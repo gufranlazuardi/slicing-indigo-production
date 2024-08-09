@@ -50,7 +50,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex w-full justify-between bg-[#10335D] px-[5rem] py-2 sticky top-0 z-80">
+      <nav className="flex w-full justify-between bg-[#10335D] px-[5rem] py-2 fixed top-0 z-100">
         {/* gambar */}
         <button onClick={handleLogoClick}>
           <Image
@@ -74,11 +74,17 @@ const Navbar = () => {
                 <Home size={18} color="white" />
                 <p className="text-white text-[12px]">About Us</p>
               </li>
-              <li className="flex items-center gap-1 cursor-pointer">
+              <li
+                className="flex items-center gap-1 cursor-pointer"
+                onClick={() => handleScrollToSection("team")}
+              >
                 <UsersRound size={18} color="white" />
                 <p className="text-white text-[12px]">Team</p>
               </li>
-              <li className="flex items-center gap-1 cursor-pointer">
+              <li
+                className="flex items-center gap-1 cursor-pointer"
+                onClick={() => handleScrollToSection("facilities")}
+              >
                 <SlidersVertical size={18} color="white" />
                 <p className="text-white text-[12px]">Facilities</p>
               </li>
@@ -89,7 +95,10 @@ const Navbar = () => {
                 <Star size={18} color="white" />
                 <p className="text-white text-[12px]">Achievements</p>
               </li>
-              <li className="flex items-center gap-1 cursor-pointer">
+              <li
+                className="flex items-center gap-1 cursor-pointer"
+                onClick={() => handleScrollToSection("our-programs")}
+              >
                 <TvMinimal size={18} color="white" />
                 <p className="text-white text-[12px]">Programs</p>
               </li>
@@ -102,7 +111,10 @@ const Navbar = () => {
                   Education Project
                 </p>
               </li>
-              <li className="flex items-center gap-1 cursor-pointer">
+              <li
+                className="flex items-center gap-1 cursor-pointer"
+                onClick={() => handleScrollToSection("subsidiaries")}
+              >
                 <LayoutGrid size={18} color="white" />
                 <p className="text-white text-[12px]">Subsidiaries</p>
               </li>
