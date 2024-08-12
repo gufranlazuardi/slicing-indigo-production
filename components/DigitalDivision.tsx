@@ -36,15 +36,15 @@ const DigitalDivision = () => {
         <div className="flex mt-[4rem] gap-[8rem] flex-col lg:flex-row xl:flex-row ">
           <div className="flex flex-col gap-[1rem]">
             <Image
-              src="/images/icon-www.png"
-              alt="/icon-www"
+              src="/images/Icon-www.png"
+              alt="Icon-www"
               height={100}
               width={100}
               className="w-[4rem]"
             />
             <Image
               src="/images/Logo-cumicumicom.png"
-              alt="/icon-www"
+              alt="Logo-cumicumicom"
               height={100}
               width={100}
               className="w-[15rem]"
@@ -93,7 +93,7 @@ const DigitalDivision = () => {
             Our{" "}
             <span className="px-2">
               <Image
-                src="/images/Logo-Youtube.png"
+                src="/images/Logo-YouTube.png"
                 alt="Logo-Youtube"
                 width={120}
                 height={100}
