@@ -12,6 +12,7 @@ const VideoSection = () => {
       loop
       width="100%"
       height="1005"
+      muted={true}
     />
   );
 };
