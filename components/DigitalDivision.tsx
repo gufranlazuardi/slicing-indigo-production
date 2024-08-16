@@ -88,7 +88,7 @@ const DigitalDivision = () => {
         </div>
 
         {/* kanan */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 pr-[2rem]">
           <div className="text-gray-500 flex items-center text-[32px] font-semibold">
             Our{" "}
             <span className="px-2">
