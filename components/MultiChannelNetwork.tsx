@@ -5,10 +5,10 @@ import React from "react";
 const MultiChannelNetwork = () => {
   return (
     <div className="bg-white flex flex-col pb-[2rem]">
-      <h1 className="pl-[2rem] text-gray-500 text-[40px] font-semibold">
+      <h1 className="pl-[2rem] text-left xl:text-center text-gray-500 text-[40px] font-semibold">
         Multi Channel Network
       </h1>
-      <div className="flex flex-col gap-[2rem] md:gap-[2rem] lg:gap-[18rem] xl:gap-[18rem] items-center sm:flex-col md:flex-row lg:flex-row xl:flex-row">
+      <div className="flex flex-col justify-center gap-[2rem] md:gap-[2rem] lg:gap-[18rem] xl:gap-[18rem] items-center sm:flex-col md:flex-row lg:flex-row xl:flex-row">
         <div className="flex flex-col gap-[1rem] mt-[3rem]">
           <div className="pl-[4rem] max-w-[450px] text-[20px] text-gray-500 font-light">
             <span className="font-bold">iAM </span>is
