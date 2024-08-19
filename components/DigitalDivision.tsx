@@ -29,7 +29,7 @@ const DigitalDivisionData = [
 const DigitalDivision = () => {
   return (
     <div className="flex flex-col pl-[2rem] pt-[2rem] pb-[4rem]">
-      <h2 className="text-left xl:text-center text-gray-500 text-[50px] font-semibold">
+      <h2 className="text-left xl:text-center text-gray-500 text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] font-semibold">
         digital division
       </h2>
       <div className="flex items-center justify-center gap-0 md:gap-[4rem] lg:gap-[4rem] xl:gap-[4rem] flex-col md:flex-col lg:flex-col xl:flex-row">
@@ -88,8 +88,8 @@ const DigitalDivision = () => {
         </div>
 
         {/* kanan */}
-        <div className="flex flex-col gap-4 pr-[2rem]">
-          <div className="text-gray-500 flex items-center text-[32px] font-semibold">
+        <div className="flex flex-col gap-4 pr-[2rem] pt-[1rem]">
+          <div className="text-gray-500 flex items-center text-[20px] md:text-[28] lg:text-[30px] xl:text-[32px] font-semibold">
             Our{" "}
             <span className="px-2">
               <Image

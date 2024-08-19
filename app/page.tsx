@@ -28,6 +28,10 @@ import WeHave from "@/components/WeHave";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AdvertisingAndDesignHouseMobile from "@/components/AdvertisingAndDesignHouseMobile";
+import CreativeIndigoProductionIsMobile from "@/components/CreativeIndigoProductionIsMobile";
+import WeHaveMobile from "@/components/WeHaveMobile";
+import AchievementsMobile from "@/components/AchievementsMobile";
 
 const Home = () => {
   useEffect(() => {
@@ -42,12 +46,25 @@ const Home = () => {
   return (
     <div className="w-full h-screen flex flex-col">
       <VideoSection />
+
       <div id="about" data-aos="fade-up">
-        <CreativeIndigoProductionIs />
+        <div className="sm:block hidden">
+          <CreativeIndigoProductionIs />
+        </div>
+        <div className="block sm:hidden">
+          <CreativeIndigoProductionIsMobile />
+        </div>
       </div>
+
       <div data-aos="fade-up">
-        <WeHave />
+        <div className="sm:block hidden">
+          <WeHave />
+        </div>
+        <div className="block sm:hidden">
+          <WeHaveMobile />
+        </div>
       </div>
+
       <div id="team">
         <InfotainmentDivision />
       </div>
@@ -64,9 +81,16 @@ const Home = () => {
         <AdvancedIntoDigital />
       </div>
       <Programs />
+
       <div id="achievements">
-        <Achievements />
+        <div className="sm:block hidden">
+          <Achievements />
+        </div>
+        <div className="block sm:hidden">
+          <AchievementsMobile />
+        </div>
       </div>
+
       <div id="our-programs">
         <OurPrograms />
       </div>
@@ -89,8 +113,11 @@ const Home = () => {
       <div data-aos="fade-up">
         <MultiChannelNetwork />
       </div>
-      <div data-aos="fade-up">
+      <div className="hidden sm:block">
         <AdvertisingAndDesignHouse />
+      </div>
+      <div data-aos="fade-up" className="block sm:hidden">
+        <AdvertisingAndDesignHouseMobile />
       </div>
       <div data-aos="fade-up">
         <ProductionService />

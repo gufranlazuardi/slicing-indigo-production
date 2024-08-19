@@ -9,6 +9,7 @@ const InfotainmentDivision = () => {
         alt="production-team"
         width={600}
         height={100}
+        className="w-full"
       />
       <div className="flex flex-col justify-between bg-[#10335D] px-[3rem] py-[2rem] xl:flex-row lg:flex-row md:flex-col sm:flex-col">
         <div className="flex flex-col gap-[2rem]">

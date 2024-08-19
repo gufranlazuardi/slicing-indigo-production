@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        {/* Correctly set the favicon using rel="icon" */}
+        <link
+          rel="icon"
+          href="/images/indigo-logo-transparent-128x52.png"
+        />
+      </Head>
       <body className={inter.className}>
         <Navbar />
-        <main className="flex-grow pt-[4.8rem] md:pt-[4.5rem] lg:pt-[4.5rem] xl:pt-[4.5rem]">
+        <main className="flex-grow pt-[4rem] md:pt-[4rem] lg:pt-[4rem] xl:pt-[4rem]">
           {children}
         </main>
         {/* <Footer /> */}

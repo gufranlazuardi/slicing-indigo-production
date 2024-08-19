@@ -50,15 +50,16 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex w-full justify-between bg-[#10335D] px-[5rem] py-2 fixed top-0 z-[1000]">
+      <nav className="flex w-full justify-between bg-[#10335D] px-[1rem] xl:px-[5rem] py-2 fixed top-0 z-[1000]">
         {/* gambar */}
         <button onClick={handleLogoClick}>
           <Image
             src="/images/indigo-logo-transparent.png"
-            width={150}
+            width={600}
             height={200}
             alt="indigo-logo-transparent"
             priority={true}
+            className="h-12 w-auto"
           />
         </button>
         {/* navbar button component */}
