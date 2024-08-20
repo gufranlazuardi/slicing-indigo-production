@@ -32,6 +32,15 @@ import AdvertisingAndDesignHouseMobile from "@/components/AdvertisingAndDesignHo
 import CreativeIndigoProductionIsMobile from "@/components/CreativeIndigoProductionIsMobile";
 import WeHaveMobile from "@/components/WeHaveMobile";
 import AchievementsMobile from "@/components/AchievementsMobile";
+import AdvancedIndoDigitalMobile from "@/components/AdvancedIntoDigitalMobile";
+import InfotainmentPrograms1Mobile from "@/components/InfotainmentPrograms1Mobile";
+import SiletMobile from "@/components/SiletMobile";
+import NonInfotainmentProgramsMobile from "@/components/NonInfotainmentProgramsMobile";
+import Programlist1Mobile from "@/components/Programlist1Mobile";
+import Programlist2Mobile from "@/components/Programlist2Mobile";
+import JalanSesama1Mobile from "@/components/JalanSesama1Mobile";
+import JalanSesama2Mobile from "@/components/JalanSesama2Mobile";
+import Programlist3Mobile from "@/components/Programlist3Mobile";
 
 const Home = () => {
   useEffect(() => {
@@ -77,9 +86,16 @@ const Home = () => {
       <div id="facilities">
         <OurFacilities />
       </div>
+
       <div data-aos="fade-up">
-        <AdvancedIntoDigital />
+        <div className="sm:block hidden">
+          <AdvancedIntoDigital />
+        </div>
+        <div className="block sm:hidden">
+          <AdvancedIndoDigitalMobile />
+        </div>
       </div>
+
       <Programs />
 
       <div id="achievements">
@@ -94,16 +110,79 @@ const Home = () => {
       <div id="our-programs">
         <OurPrograms />
       </div>
-      <InfotainmentPrograms1 />
-      <Silet />
-      <NonInfotainmentPrograms />
-      <Programlist1 />
-      <Programlist2 />
-      <Programlist3 />
-      <div id="jalan-sesama">
-        <JalanSesama1 />
+
+      <div>
+        <div className="sm:block hidden">
+          <InfotainmentPrograms1 />
+        </div>
+        <div className="block sm:hidden">
+          <InfotainmentPrograms1Mobile />
+        </div>
       </div>
-      <JalanSesama2 />
+
+      <div>
+        <div className="sm:block hidden">
+          <Silet />
+        </div>
+        <div className="block sm:hidden">
+          <SiletMobile />
+        </div>
+      </div>
+
+      <div>
+        <div className="sm:block hidden">
+          <NonInfotainmentPrograms />
+        </div>
+        <div className="block sm:hidden">
+          <NonInfotainmentProgramsMobile />
+        </div>
+      </div>
+
+      <div>
+        <div className="sm:block hidden">
+          <Programlist1 />
+        </div>
+        <div className="block sm:hidden">
+          <Programlist1Mobile />
+        </div>
+      </div>
+
+      <div>
+        <div className="sm:block hidden">
+          <Programlist2 />
+        </div>
+        <div className="block sm:hidden">
+          <Programlist2Mobile />
+        </div>
+      </div>
+
+      <div>
+        <div className="sm:block hidden">
+          <Programlist3 />
+        </div>
+        <div className="block sm:hidden">
+          <Programlist3Mobile />
+        </div>
+      </div>
+
+      <div id="jalan-sesama">
+        <div className="sm:block hidden">
+          <JalanSesama1 />
+        </div>
+        <div className="sm:hidden block">
+          <JalanSesama1Mobile />
+        </div>
+      </div>
+
+      <div>
+        <div className="sm:block hidden">
+          <JalanSesama2 />
+        </div>
+        <div className="sm:hidden block">
+          <JalanSesama2Mobile />
+        </div>
+      </div>
+
       <div id="subsidiaries">
         <OurSubsidiaries />
       </div>

@@ -28,12 +28,12 @@ const DigitalDivisionData = [
 
 const DigitalDivision = () => {
   return (
-    <div className="flex flex-col pl-[2rem] pt-[2rem] pb-[4rem]">
-      <h2 className="text-left xl:text-center text-gray-500 text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] font-semibold">
+    <div className="flex flex-col px-[1rem] md:pl-[2rem] lg:pl-[2rem] xl:pl-[2rem] pt-[2rem] pb-[4rem]">
+      <h2 className=" text-gray-500 text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px] font-semibold">
         digital division
       </h2>
-      <div className="flex items-center justify-center gap-0 md:gap-[4rem] lg:gap-[4rem] xl:gap-[4rem] flex-col md:flex-col lg:flex-col xl:flex-row">
-        <div className="flex mt-[4rem] gap-[8rem] flex-col lg:flex-row xl:flex-row ">
+      <div className="flex items-center justify-center gap-[2rem] md:gap-[4rem] lg:gap-[12rem] xl:gap-[12rem] flex-col md:flex-col lg:flex-col xl:flex-row">
+        <div className="flex mt-[4rem] gap-[2rem] md:gap-[5rem] lg:gap-[5rem] xl:gap-[5rem] ">
           <div className="flex flex-col gap-[1rem]">
             <Image
               src="/images/Icon-www.png"
@@ -49,7 +49,7 @@ const DigitalDivision = () => {
               width={100}
               className="w-[15rem]"
             />
-            <p className="text-gray-500 text-[22px] font-light max-w-[16rem]">
+            <p className="text-gray-500 text-[18px] font-light max-w-[15rem]">
               Produce and manage celebrity news through web portal
             </p>
             <Image
@@ -57,7 +57,7 @@ const DigitalDivision = () => {
               alt="About-Cumi-Web-Crop"
               width={300}
               height={100}
-              className="mt-1"
+              className="mt-1 w-[18rem]"
             />
           </div>
           <div className="flex flex-col gap-[1rem]">
@@ -72,9 +72,9 @@ const DigitalDivision = () => {
               alt="/Logo-cumicumi-YT"
               height={100}
               width={100}
-              className="w-[13rem] mt-[0.5rem]"
+              className="w-[12rem] mt-[0.5rem]"
             />
-            <p className="text-gray-500 text-[22px] font-light max-w-[18rem]">
+            <p className="text-gray-500 text-[18px] font-light max-w-[15rem]">
               Produce and manage celebrity video news through Youtube
               Channels
             </p>
@@ -83,6 +83,7 @@ const DigitalDivision = () => {
               alt="About-Cumi-YT"
               height={100}
               width={300}
+              className="mt-1 w-[18rem]"
             />
           </div>
         </div>
